@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title></title>
+    <style>
+        #main{
+            color: cadetblue;
+        }
+        .headingstyles{
+            font-size: medium;
+            font-family: cursive;
+            font-weight: bold;
+            color: darkcyan;
+        }
+        h2{
+            color: brown;
+        }
+        pre,h3{
+            font-family: cursive;
+            color: darkgoldenrod;
+        }
+        ul>li{
+            color: fuchsia;
+        }
+        ol>li{
+            color: red;
+        }
+        ul li{
+            color: teal;
+        }
+    </style>
+</head>
+<body>
+    <!---ID Selector-->
+    <p id="main">
+        Main content
+    </p>
+    <p>
+        Sub content
+    </p>
+    <!--Class Selector-->
+    <div>
+        <h3 class="headingstyles">Heading of main content</h3>
+        <p id="main">
+            Main content
+        </p>
+        <h3>Heading of sub content</h3>
+        <p>
+            Sub content
+        </p>
+    </div>
+    <!--Element selector-->
+    <h2>Element selector</h2>
+    <!--Group selector-->
+    <pre>Pre-Formatted Tag</pre>
+    <!--child selector-->
+    <ul>
+        <li>Item 1</li>
+        <li>Item 2
+            <ol>
+                <li>Subitem 2.1</li>
+                <li>Subitem 2.2
+                    <ul>
+                        <li>Sub-subitem 2.2.1 </li>
+                        <li>Sub-subitem 2.2.2</li>
+                    </ul>
+                    </li>
+                <li>Subitem 2.3</li>
+                </li>
+            </ol>
+    </ul>
+</body>
+</html>
